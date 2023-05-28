@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цент программирования</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="page">
+        <header class="header">
+            <div class="container header__container">
+                <div class="logo">
+                    <span>Центр программирования</span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#home" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a href="#work" class="menu__link">Курсы</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">Преподаватели</a></li>
+                        <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="menu__icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section id="home" class="observe hero">
+            <div class="container">
+                <h1 class="hero__title"><span>Добро пожаловать в наш центр <br> обучения программирвоанию</span>
+                </h1>
+                <br>
+                <h2 class="hero__title_h2">Вы сможете выбрать и изучить различные курсы по программированию и
+                    расширить свои навыки в этой области
+                </h2>
+                <a href="#work" class="hero__arrow"></a>
+            </div>
+        </section>
+
+        <!-- our courses -->
+
+        <section id="work" class="observe works">
+            <div class="container works__container">
+                <h2 class="works__title">Наши <span>курсы</span></h2>
+                <div class="works__body">
+                    <div class="works__card card">
+                        <div class="card__img">
+                            <img src="img/card__1.jpg" alt="">
+                        </div>
+                        <div class="card__info">
+                            <span class="card__tag">Курс "Frontend-разрабочик"</span>
+                            <div class="card__text">Благодаря frontend-разработчикам мы оставляем лайки и комментарии,
+                                добавляем товары в корзину и быстро разбираемся в онлайн-картах. На курсе вы научитесь
+                                создавать интерфейсы веб-сервисов с помощью языков программирования и дополнительных
+                                технологий. Сможете разрабатывать планировщики задач, мессенджеры, интернет-магазины.
+                            </div>
+                            <div class="card__category">Скидка 30%</div>
+                            <a href="#footer" class="card__button" target="_blank">Оставить заявку</a>
+                        </div>
+                    </div>
+                    <div class="works__card card card_r">
+                        <div class="card__img">
+                            <img src="img/card__2.jpg" alt="">
+                        </div>
+                        <div class="card__info">
+                            <span class="card__tag">Курс "Python-разрабочик"</span>
+                            <div class="card__text">На Python пишут веб-приложения и нейросети, проводят научные
+                                вычисления и автоматизируют процессы. Язык просто выучить, даже если вы никогда не
+                                программировали. На курсе вы создадите Telegram-бота, полноценный магазин и аналог
+                                популярной соцсети для портфолио, а Центр карьеры поможет найти работу
+                                Python-разработчиком.</div>
+                            <div class="card__category">Скидка 30%</div>
+                            <a href="#footer" class="card__button" target="_blank">Оставить заявку</a>
+                        </div>
+                    </div>
+                    <div class="works__card card">
+                        <div class="card__img">
+                            <img src="img/card__3.jpg" alt="">
+                        </div>
+                        <div class="card__info">
+                            <span class="card__tag">Курс "JavaScript-разрабочик"</span>
+                            <div class="card__text">С помощью JavaScript вы сможете создавать интерактивные элементы на
+                                сайте. Например, всплывающие подсказки, галереи, выпадающие меню и формы. Это основной
+                                язык для современной веб-разработки — почти 100% сайтов работает на JavaScript. </div>
+                            <div class="card__category">Скидка 30%</div>
+                            <a href="#footer" class="card__button" target="_blank">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- techers -->
+
+        <section id="about" class="container observe about">
+            <h2 class="works__title">Наши <span> преподаватели</span></h2> <br>
+
+            <!-- sliders -->
+
+            <div class="slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/teacher1.png" alt="Преподаватель 1">
+                            <h3>Имя преподавателя 1</h3>
+                            <p>Описание преподавателя 1</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/teacher1.png" alt="Преподаватель 2">
+                            <h3>Имя преподавателя 2</h3>
+                            <p>Описание преподавателя 2</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/teacher1.png" alt="Преподаватель 3">
+                            <h3>Имя преподавателя 3</h3>
+                            <p>Описание преподавателя 3</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacts -->
+
+        <section id="contacts" class="contacts">
+            <div class="container contacts__title">
+                <h2 class="block__title text-white">Напишите нам</h2>
+                <form class="contacts__form" action="">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="text" class="input" placeholder=" ">
+                            <label for="" class="label">Имя</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="input" placeholder=" ">
+                            <label for="" class="label">Фамилия</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="email" class="input" placeholder=" ">
+                            <label for="" class="label">Email</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="input" placeholder=" ">
+                            <label for="" class="label">Телефон</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <textarea class="textarea" placeholder=" " name=""></textarea>
+                            <label for="" class="label">Напишите о себе</label>
+                        </div>
+                    </div>
+                    <button class="btn text-upper" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Название вашего центра. Все права защищены.</p>
+        </footer>
+
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
